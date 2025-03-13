@@ -15,9 +15,36 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638774268178366998
+  lastModified: 638774275026060886
   FileSizes: []
   Exists: 1
+--- !u!114 &-3729514032048386449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu Hover
+  m_EditorClassIdentifier: 
+  Path: event:/Menu Hover
+  Guid:
+    Data1: -317448301
+    Data2: 1281967101
+    Data3: -1434809202
+    Data4: 948810532
+  Banks:
+  - {fileID: 8098955163676982598}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-1366145105878721182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33,10 +60,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638774268178376989
+  lastModified: 638774275026068495
   FileSizes:
   - Name: 
-    Value: 822
+    Value: 918
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -55,13 +82,15 @@ MonoBehaviour:
   - {fileID: 3642398160677739158}
   - {fileID: -7147864163532965018}
   - {fileID: 8098955163676982598}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: 6136375533082685453}
+  - {fileID: -3729514032048386449}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7147864163532965018}
   StringsBanks:
   - {fileID: -1366145105878721182}
-  cacheTime: 638774268178417220
+  cacheTime: 638774275026459992
   cacheVersion: 131846
 --- !u!114 &3642398160677739158
 MonoBehaviour:
@@ -81,6 +110,33 @@ MonoBehaviour:
   lastModified: 638774268178417220
   FileSizes: []
   Exists: 1
+--- !u!114 &6136375533082685453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu Select
+  m_EditorClassIdentifier: 
+  Path: event:/Menu Select
+  Guid:
+    Data1: -1488563129
+    Data2: 1110396260
+    Data3: -1734007130
+    Data4: 1738544946
+  Banks:
+  - {fileID: 8098955163676982598}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8098955163676982598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,6 +152,6 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Menu.bank
   Name: Menu
   StudioPath: bank:/Menu
-  lastModified: 638774268178397707
+  lastModified: 638774275026459992
   FileSizes: []
   Exists: 1
